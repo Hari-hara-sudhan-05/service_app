@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mkce/services_home.dart';
+import 'package:mkce/screens/services_home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,12 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData().copyWith(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        cardTheme:CardTheme(
-          color: Colors.deepPurple[200],
-        )
-      ),
-
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),),
       home: ServicesHome(),
     );
   }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mkce/widgets/custom_bottom_navbar.dart';
 import 'package:mkce/widgets/services_widgets.dart';
-import 'give_image_and_name.dart';
+import '../models/give_image_and_name.dart';
 
 
 class ServicesHome extends StatelessWidget {
